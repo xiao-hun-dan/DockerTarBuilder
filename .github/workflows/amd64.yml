@@ -1,9 +1,9 @@
-name: x86-64 Pull and Save Docker Image
+name: halo
 on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: openwrt
+        description: halo
         required: true
         default: 'alpine:latest'  # 设置默认的 Docker 镜像列表
 
