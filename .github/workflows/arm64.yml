@@ -1,10 +1,10 @@
-name: ARM64 Pull and Save Docker Image
+name: openwrt
 
 on:
   workflow_dispatch:
     inputs:
       docker_images:
-        description: '请填写docker镜像名称 多个用英文逗号分开'
+        description: openwrt
         required: true
         default: 'alpine:latest,ubuntu:latest'  # 设置默认的 Docker 镜像列表
 
