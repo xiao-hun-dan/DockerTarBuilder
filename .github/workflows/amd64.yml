@@ -1,4 +1,4 @@
-name: halo
+name: x86
 on:
   workflow_dispatch:
     inputs:
